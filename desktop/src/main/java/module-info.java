@@ -6,4 +6,6 @@ module com.norbdev.desktop {
 
     opens com.norbdev.desktop to javafx.fxml;
     exports com.norbdev.desktop;
+    opens com.norbdev.desktop.controller to javafx.fxml;
+    exports com.norbdev.desktop.controller;
 }
