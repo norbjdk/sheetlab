@@ -1,6 +1,5 @@
 package com.norbdev.desktop;
 
-import com.norbdev.desktop.event.EventBus;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -12,10 +11,9 @@ import java.util.Map;
 public class Launcher extends Application {
     private Stage primaryStage;
     private Map<String, Scene> projectScenes;
-    private EventBus eventBus;
     @Override
     public void init() {
-        this.eventBus = new EventBus();
+
     }
 
     @Override
