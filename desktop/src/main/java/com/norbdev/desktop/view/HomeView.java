@@ -5,11 +5,11 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.VBox;
 
-public class IntroView extends ScrollPane implements ViewModel {
+public class HomeView extends ScrollPane implements ViewModel {
     private final VBox contentContainer = new VBox();
-    private final Label header = new Label("Welcome to *Music Notation Software*");
+    private final Label header = new Label("Welcome to ScoreForge");
 
-    public IntroView() {
+    public HomeView() {
         setContent(contentContainer);
         setFitToWidth(true);
         setFitToHeight(true);
