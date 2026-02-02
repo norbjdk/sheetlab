@@ -1,3 +1,3 @@
-# Sheetlab
+# Chordly
 
 ## Music notation software
