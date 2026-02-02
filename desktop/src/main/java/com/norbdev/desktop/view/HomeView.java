@@ -7,7 +7,7 @@ import javafx.scene.layout.VBox;
 
 public class HomeView extends ScrollPane implements ViewModel {
     private final VBox contentContainer = new VBox();
-    private final Label header = new Label("Welcome to *Music Notation Software*");
+    private final Label header = new Label("Welcome to ScoreForge");
 
     public HomeView() {
         setContent(contentContainer);

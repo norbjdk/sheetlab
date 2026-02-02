@@ -90,3 +90,7 @@
     -fx-background-color: #e0e0e0;
     -fx-cursor: hand;
 }
+
+.collection-header {
+    -fx-font-size: 18px;
+}
