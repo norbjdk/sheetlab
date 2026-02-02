@@ -1,1 +1,9 @@
-@import "../../node_modules/tailwindcss/dist/lib.d.mts";
+@import "tailwindcss";
+
+:root {
+    --floral-white: #FFFCF2;
+    --dust-grey:#CCC5B9;
+    --charcoal-brown: #403D39;
+    --carbon-black:#252422;
+    --spicy-paprika:#EB5E28;
+}
